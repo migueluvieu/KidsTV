@@ -8,9 +8,9 @@ Luego se mete la librería de jquery y mediaelementplayer.js. La mediaElemnt es 
 con sus controles propio y demás. como no hay ts para esta librería, mirar el player.js como lo utiliza. 
 jauery se declara como any, con lo cual no da error de compilación y el transpilador no lo procesa, así llega al browser tal cual.
 
-utiliza para construir webpack http://blog.enriqueoriol.com/2016/10/intro-a-webpack.html
+Utiliza para construir webpack http://blog.enriqueoriol.com/2016/10/intro-a-webpack.html
 
-añadí nueva carpeta de workers donde los almaceno y los llevo al www , al igual que el lib
+Añadí nueva carpeta de workers donde los almaceno y los llevo al www , al igual que el lib
 el cambio lo hice en node_modules/@ionic/app-scripts/config 
 
 Se añadió nueva directiva image-cache que se añade a las img y loque hace es buscar en caché la imagen, si está la devuelve y si no está la obtiene, crea blob y la almacena, blob y metainformación
