@@ -1,0 +1,17 @@
+
+<ion-content class="card-background-page"  scroll=false>
+
+  <div *ngFor="let clip of currentChannel.clipsList">
+  <ion-card (click) = "seleccionarVideo(clip)" [ngClass]="{'selected': isSelected(clip) }">
+    <img src="{{clip.thumbnail}}" image-cache>
+    <div class="card-title">{{clip.title | shortener:45 }}</div>
+  </ion-card>
+</div>
+
+ <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+    <ion-infinite-scroll-content
+      loadingSpinner="bubbles">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+</ion-content>

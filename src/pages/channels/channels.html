@@ -1,0 +1,38 @@
+
+<ion-content class="card-background-page"  scroll=false>
+
+<div  class="main"> 
+  <div *ngFor="let channel of channel.subscriptionsList; let tagIndex = index" class="channel" (click) = "selectChannel(channel)"> 
+    <ion-badge color="secondary" class="badge">{{channel.totalClips}}</ion-badge>
+    <img src="{{channel.thumbnail}}"  image-cache>
+     <div class="card-title">{{channel.title | shortener:50}}</div> 
+  </div>
+</div>
+
+
+
+<!--<div *ngFor="let post of channel.subscriptionsList; let tagIndex = index" class="width:50px;height:50px" >
+        <ion-row *ngIf="tagIndex % 4 == 0" >           
+              <div *ngFor="let i of [0,1,2,3]" style='width:25%'>
+               <ion-col  *ngIf="(tagIndex + i) < channel.subscriptionsList.length" style="margin: 0px 0px 0px 0px;">
+                 <ion-card  (click) = "selectChannel(channel.subscriptionsList[tagIndex+i])" >
+                    <ion-badge color="secondary" style="position:relative;top:5px;left: 1px; z-index:90">{{channel.subscriptionsList[tagIndex+i].totalClips}}</ion-badge>
+                    <img src="{{channel.subscriptionsList[tagIndex+i].thumbnail}}"  style="position:relative;    top: -15px;" >
+                    <div class="card-title">{{channel.subscriptionsList[tagIndex+i].title | shortener:25}}</div>                    
+                  </ion-card>
+               </ion-col>
+               </div>
+        </ion-row>
+
+    
+  
+</div>      
+-->
+
+ <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+    <ion-infinite-scroll-content
+      loadingSpinner="bubbles">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+</ion-content>

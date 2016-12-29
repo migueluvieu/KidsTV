@@ -1,0 +1,38 @@
+page-player{
+.holder{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index:100;
+      margin: 0.1% 0.1% 0.1% 0.1% ;
+  }
+  .overFrame{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 97%;
+    z-index: 90;
+  }
+
+   .slider{
+      position: absolute;
+      top:0.5%;
+      bottom:0.5%;
+      right:0.5%;
+      width:20%;
+      height: 100%;
+      z-index:101;
+      //opacity: 0.7;
+  }
+
+   .back{
+      position: absolute;
+      top:10%;
+      left:1%;
+      width:20%;
+      height: 10%;
+      z-index:101;
+      opacity: 0.8;
+  }
+}

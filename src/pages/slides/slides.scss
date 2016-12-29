@@ -1,0 +1,76 @@
+page-slides {
+   margin-top: 56.25vw;
+    scroll-content {
+        margin-top: 5px !important;
+    }
+    ion-card.adv-map p {
+        font-size: 0.5em !important;
+    }
+ 
+  content-md.ion-content{
+      background-color:rgba(0, 0, 0, 0);
+  }
+   
+    ion-content {
+   background-color:rgba(0, 0, 0, 0);
+   }
+
+   .fondo {
+   background-color:orangered;
+   }
+
+   .card-md{
+     margin: 0px 0px 0px 0px;  
+    width: 100%; 
+    background: transparent;
+    border-radius: 0
+   }
+
+    .item-bold {
+    font-weight: bold;
+    }
+
+    ion-content.cards-bg {
+        background-color:orangered;
+        border-width: medium;
+        border-style: solid;
+    }
+
+    .item-text-wrap { /* negate the nowrap CSS from .ionic .item */
+       // overflow: visible;
+        text-overflow: initial;
+        white-space: initial;
+    }
+
+    
+
+.card-background-page {
+
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 130px;
+    font-size: 0.8em;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+    opacity: 0.9
+  }
+
+   
+ }
+
+ .content-md{
+ background-color:transparent;
+ }
+
+ .selected{
+     border:7px solid red;
+     opacity:0.5
+ }
+}
