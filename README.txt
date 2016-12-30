@@ -1,5 +1,5 @@
 
-PARA PLUGIN REBBOT
+PARA PLUGIN REBOOT
 cordova plugin add https://github.com/fadeit/cordova-plugin-reboot.git
 se ejecuta cordova.plugins.Reboot.reboot();
 PERO SOLO FURRULA PARA ROOT.
