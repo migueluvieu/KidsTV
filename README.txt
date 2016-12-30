@@ -24,7 +24,7 @@ el storage de ionic. Para indexed, ionic crea la BBDD _ionicstorage y la colecci
 importante-> en android el chromium no registra el service-worker a día de hoy.
 
 
-Falta
+Falta:
 - limpiar la librería de mediaelementplayer
 - maquear worker con ES6
 - auditoría firebase
