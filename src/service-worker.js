@@ -4,7 +4,7 @@
 //https://developer.mozilla.org/es/docs/Web/API/Cache
 
 
-/*********importante-> en android el chromium no registra el service-worker a día de hoy.**//////
+/*********importante-> en android el chromium no registra el service-worker a día de hoy, queda pendiente verlo **//////
 
 
 //cuando cambiamos la versión, se ejecutará de nuevo el activate. Hay que arrancar de nuevo servidor y desde el chrome, en la pestaña application se pueden
@@ -21,7 +21,7 @@
 const CACHE_VERSION = 2;
 const CURRENT_CACHE = 'kids-cache-v' + CACHE_VERSION
 //todas las llamadas al servidor se cachearán
-const BASE_URL = "https://www.googleapis.com/youtube/v3/"
+const BASE_URL = "https://www.googleapis.com/youtube/v3/";
 
 
 

@@ -31,7 +31,7 @@ export class ChannelsPage {
      this.channel = new YTChannelBean(this.YT_INIT_CHANNEL,null,null, null);
      loader.loading.present();
      this.youtubeData.fetchPlayListByChannel(this.channel).subscribe(data => {
-          //el channel ya viene con el listado de suscripciones relleno
+          //el channel ya viene con el listado de suscripciones informado desde el servicio
           loader.loading.dismiss();
       });
     }
