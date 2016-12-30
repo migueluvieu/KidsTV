@@ -2,7 +2,7 @@
 PARA PLUGIN REBOOT
 cordova plugin add https://github.com/fadeit/cordova-plugin-reboot.git
 se ejecuta cordova.plugins.Reboot.reboot();
-PERO SOLO FURRULA PARA ROOT.
+PERO SOLO FURRULA PARA ROOT!
 
 Luego se mete la librería de jquery y mediaelementplayer.js. La mediaElemnt es un wraper del framset que trae youtube
 con sus controles propio y demás. como no hay ts para esta librería, mirar el player.js como lo utiliza. 
