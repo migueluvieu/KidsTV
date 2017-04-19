@@ -1,4 +1,4 @@
-# KidsTV Ionic2 beta
+# KidsTV Ionic 2.0.0-rc.3
 - Aplicación Ionic2 que consume  [`canal de youtube propio`](https://www.youtube.com/channel/UCb40SExvsnL0Id3jrDBSI9w) para mostrar las listas de producción agregadas con contenido para niños. 
 - Contiene visor de videos customizado que bloquea los links a youtube para que no salgan de la app.
 - Para el visor se integra librería MediaelementPlayer y JQuery. 
